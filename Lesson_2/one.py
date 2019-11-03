@@ -1,0 +1,5 @@
+a, b = map(int, input().split())
+print(a,"+",b,"=",a+b, sep="")
+print(a,"-",b,"=",a-b, sep="")
+print(a,"*",b,"=",a*b, sep="")
+print(a,"/",b,"=",round(a/b,3), sep="")
